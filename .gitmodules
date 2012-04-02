@@ -1,0 +1,3 @@
+[submodule "Vendor/SSBenchmarker"]
+	path = Vendor/SSBenchmarker
+	url = https://github.com/samsoffes/ssbenchmarker.git

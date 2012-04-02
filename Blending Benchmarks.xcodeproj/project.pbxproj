@@ -14,6 +14,10 @@
 		B2909099152A19A100128612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2909093152A19A100128612 /* main.m */; };
 		B290909B152A19A100128612 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2909096152A19A100128612 /* InfoPlist.strings */; };
 		B29090A4152A1AE700128612 /* BBResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29090A3152A1AE700128612 /* BBResultsViewController.m */; };
+		B29090A7152A1CF900128612 /* BBDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = B29090A6152A1CF900128612 /* BBDefines.m */; };
+		B29090EA152A2A3500128612 /* rings.png in Resources */ = {isa = PBXBuildFile; fileRef = B29090E9152A2A3500128612 /* rings.png */; };
+		B29090F5152A5CF200128612 /* SSBenchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = B29090F1152A5CF200128612 /* SSBenchmark.m */; };
+		B29090F6152A5CF200128612 /* SSBenchmarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B29090F3152A5CF200128612 /* SSBenchmarker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,13 @@
 		B2909097152A19A100128612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29090A2152A1AE700128612 /* BBResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBResultsViewController.h; sourceTree = "<group>"; };
 		B29090A3152A1AE700128612 /* BBResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBResultsViewController.m; sourceTree = "<group>"; };
+		B29090A5152A1CF900128612 /* BBDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDefines.h; sourceTree = "<group>"; };
+		B29090A6152A1CF900128612 /* BBDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDefines.m; sourceTree = "<group>"; };
+		B29090E9152A2A3500128612 /* rings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rings.png; sourceTree = "<group>"; };
+		B29090F0152A5CF200128612 /* SSBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBenchmark.h; sourceTree = "<group>"; };
+		B29090F1152A5CF200128612 /* SSBenchmark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBenchmark.m; sourceTree = "<group>"; };
+		B29090F2152A5CF200128612 /* SSBenchmarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSBenchmarker.h; sourceTree = "<group>"; };
+		B29090F3152A5CF200128612 /* SSBenchmarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSBenchmarker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 				B290908E152A19A100128612 /* Classes */,
 				B2909091152A19A100128612 /* Other Sources */,
 				B2909094152A19A100128612 /* Resources */,
+				B29090AB152A224100128612 /* Vendor */,
 				B2909071152A193000128612 /* Frameworks */,
 				B290906F152A193000128612 /* Products */,
 			);
@@ -90,6 +102,8 @@
 			children = (
 				B2909092152A19A100128612 /* Blending Benchmarks-Prefix.pch */,
 				B2909093152A19A100128612 /* main.m */,
+				B29090A5152A1CF900128612 /* BBDefines.h */,
+				B29090A6152A1CF900128612 /* BBDefines.m */,
 			);
 			path = "Other Sources";
 			sourceTree = "<group>";
@@ -97,10 +111,30 @@
 		B2909094152A19A100128612 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B29090E9152A2A3500128612 /* rings.png */,
 				B2909095152A19A100128612 /* Blending Benchmarks-Info.plist */,
 				B2909096152A19A100128612 /* InfoPlist.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B29090AB152A224100128612 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				B29090EE152A5CF200128612 /* SSBenchmarker */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		B29090EE152A5CF200128612 /* SSBenchmarker */ = {
+			isa = PBXGroup;
+			children = (
+				B29090F0152A5CF200128612 /* SSBenchmark.h */,
+				B29090F1152A5CF200128612 /* SSBenchmark.m */,
+				B29090F2152A5CF200128612 /* SSBenchmarker.h */,
+				B29090F3152A5CF200128612 /* SSBenchmarker.m */,
+			);
+			path = SSBenchmarker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +173,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = B2909063152A193000128612;
 			productRefGroup = B290906F152A193000128612 /* Products */;
@@ -156,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B290909B152A19A100128612 /* InfoPlist.strings in Resources */,
+				B29090EA152A2A3500128612 /* rings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +205,9 @@
 				B2909098152A19A100128612 /* BBAppDelegate.m in Sources */,
 				B2909099152A19A100128612 /* main.m in Sources */,
 				B29090A4152A1AE700128612 /* BBResultsViewController.m in Sources */,
+				B29090A7152A1CF900128612 /* BBDefines.m in Sources */,
+				B29090F5152A5CF200128612 /* SSBenchmark.m in Sources */,
+				B29090F6152A5CF200128612 /* SSBenchmarker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
