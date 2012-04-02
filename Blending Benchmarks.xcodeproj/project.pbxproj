@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2909073152A193000128612 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2909072152A193000128612 /* UIKit.framework */; };
+		B2909075152A193000128612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2909074152A193000128612 /* Foundation.framework */; };
+		B2909077152A193000128612 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2909076152A193000128612 /* CoreGraphics.framework */; };
+		B2909098152A19A100128612 /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2909090152A19A100128612 /* BBAppDelegate.m */; };
+		B2909099152A19A100128612 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2909093152A19A100128612 /* main.m */; };
+		B290909B152A19A100128612 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2909096152A19A100128612 /* InfoPlist.strings */; };
+		B29090A4152A1AE700128612 /* BBResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B29090A3152A1AE700128612 /* BBResultsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B290906E152A193000128612 /* Blending Benchmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blending Benchmarks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2909072152A193000128612 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2909074152A193000128612 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2909076152A193000128612 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B290908F152A19A100128612 /* BBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
+		B2909090152A19A100128612 /* BBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
+		B2909092152A19A100128612 /* Blending Benchmarks-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Blending Benchmarks-Prefix.pch"; sourceTree = "<group>"; };
+		B2909093152A19A100128612 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2909095152A19A100128612 /* Blending Benchmarks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Blending Benchmarks-Info.plist"; sourceTree = "<group>"; };
+		B2909097152A19A100128612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B29090A2152A1AE700128612 /* BBResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBResultsViewController.h; sourceTree = "<group>"; };
+		B29090A3152A1AE700128612 /* BBResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBResultsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B290906B152A193000128612 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2909073152A193000128612 /* UIKit.framework in Frameworks */,
+				B2909075152A193000128612 /* Foundation.framework in Frameworks */,
+				B2909077152A193000128612 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2909063152A193000128612 = {
+			isa = PBXGroup;
+			children = (
+				B290908E152A19A100128612 /* Classes */,
+				B2909091152A19A100128612 /* Other Sources */,
+				B2909094152A19A100128612 /* Resources */,
+				B2909071152A193000128612 /* Frameworks */,
+				B290906F152A193000128612 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B290906F152A193000128612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B290906E152A193000128612 /* Blending Benchmarks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2909071152A193000128612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2909072152A193000128612 /* UIKit.framework */,
+				B2909074152A193000128612 /* Foundation.framework */,
+				B2909076152A193000128612 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B290908E152A19A100128612 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B290908F152A19A100128612 /* BBAppDelegate.h */,
+				B2909090152A19A100128612 /* BBAppDelegate.m */,
+				B29090A2152A1AE700128612 /* BBResultsViewController.h */,
+				B29090A3152A1AE700128612 /* BBResultsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B2909091152A19A100128612 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B2909092152A19A100128612 /* Blending Benchmarks-Prefix.pch */,
+				B2909093152A19A100128612 /* main.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B2909094152A19A100128612 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2909095152A19A100128612 /* Blending Benchmarks-Info.plist */,
+				B2909096152A19A100128612 /* InfoPlist.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B290906D152A193000128612 /* Blending Benchmarks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2909086152A193000128612 /* Build configuration list for PBXNativeTarget "Blending Benchmarks" */;
+			buildPhases = (
+				B290906A152A193000128612 /* Sources */,
+				B290906B152A193000128612 /* Frameworks */,
+				B290906C152A193000128612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blending Benchmarks";
+			productName = "Blending Benchmarks";
+			productReference = B290906E152A193000128612 /* Blending Benchmarks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2909065152A193000128612 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Sam Soffes";
+			};
+			buildConfigurationList = B2909068152A193000128612 /* Build configuration list for PBXProject "Blending Benchmarks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2909063152A193000128612;
+			productRefGroup = B290906F152A193000128612 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B290906D152A193000128612 /* Blending Benchmarks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B290906C152A193000128612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B290909B152A19A100128612 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B290906A152A193000128612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2909098152A19A100128612 /* BBAppDelegate.m in Sources */,
+				B2909099152A19A100128612 /* main.m in Sources */,
+				B29090A4152A1AE700128612 /* BBResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2909096152A19A100128612 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2909097152A19A100128612 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2909084152A193000128612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2909085152A193000128612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2909087152A193000128612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Blending Benchmarks-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Blending Benchmarks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2909088152A193000128612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Blending Benchmarks-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Blending Benchmarks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2909068152A193000128612 /* Build configuration list for PBXProject "Blending Benchmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2909084152A193000128612 /* Debug */,
+				B2909085152A193000128612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2909086152A193000128612 /* Build configuration list for PBXNativeTarget "Blending Benchmarks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2909087152A193000128612 /* Debug */,
+				B2909088152A193000128612 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2909065152A193000128612 /* Project object */;
+}
